@@ -29,5 +29,5 @@ const cakeSlice = createSlice({
 // createSlice automatically create actions and action generators for the given reducer functions
 
 // export the slice and actions
-module.export = cakeSlice.reducer;
-module.export.cakeAction = cakeSlice.actions;
+module.exports = cakeSlice.reducer;
+module.exports.cakeAction = cakeSlice.actions;
