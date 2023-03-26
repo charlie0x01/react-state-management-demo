@@ -18,4 +18,4 @@ const iceCreamSlice = createSlice({
 });
 
 module.exports = iceCreamSlice.reducer;
-module.exports.iceCreamAction = iceCreamSlice.actions;
+module.exports.iceCreamActions = iceCreamSlice.actions;

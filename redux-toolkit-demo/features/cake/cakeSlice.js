@@ -30,4 +30,4 @@ const cakeSlice = createSlice({
 
 // export the slice and actions
 module.exports = cakeSlice.reducer;
-module.exports.cakeAction = cakeSlice.actions;
+module.exports.cakeActions = cakeSlice.actions;
